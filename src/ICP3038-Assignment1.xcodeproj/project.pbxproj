@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1ED8C25063CC48AA911014F1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C196F645AC1A470A8250BE7B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				61F38F5CAFAB41BA9B905300 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		ADF64976A36B4CA786FD6673 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DD086B9ECF64844BFBDA445 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5F6946350B3346C0B9EF1431 /* CMake Rules */,
+			);
+			dependencies = (
+				9273FD46BF7941299A5A271D /* PBXTargetDependency */,
+				083C6645C77B4A44B66A7C07 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		20E581362ACE4A32BA4BBE32 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/Image.cpp */ = {isa = PBXBuildFile; fileRef = 73BB5B0724D943AF9146005C /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/Image.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6726517EFE564C1EB7D84930 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/include/Image.h */ = {isa = PBXBuildFile; fileRef = A2EF87A6E92E43E5B218137B /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/include/Image.h */; settings = {COMPILER_FLAGS = ""; }; };
+		89EC8A5BE8A84C8FB97CCDD0 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CC43662A4AC9498EB6B91EA9 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		C7E3C3309C6F4CE7AFD74CC9 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/test.cpp */ = {isa = PBXBuildFile; fileRef = F02236D298BD4A6A848E1848 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/test.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2A88B2AAC1E1411EAC2EEE48 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4AFFE21365C6481B9C02F964 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E1129E7BD46E4510A84A105D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		E26C0E16E74D4360A536720B = {
+			isa = PBXBuildStyle;
+		};
+		EE50B015AA3E4C32A6F8D460 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2294DD51BEFD4760B99587CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543AC94875F24F2F8BB1CBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED8C25063CC48AA911014F1;
+			remoteInfo = ZERO_CHECK;
+		};
+		503F10F3ABD04407961B6555 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543AC94875F24F2F8BB1CBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED8C25063CC48AA911014F1;
+			remoteInfo = ZERO_CHECK;
+		};
+		96158C36F083406982E0FA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 543AC94875F24F2F8BB1CBE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40C0471F048341A28EAF9C3B;
+			remoteInfo = assignment1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73BB5B0724D943AF9146005C /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/Image.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Image.cpp; path = ../src/Image.cpp; sourceTree = SOURCE_ROOT; };
+		9B5B1ABC22D64A288B699A00 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A2EF87A6E92E43E5B218137B /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/include/Image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Image.h; path = ../include/Image.h; sourceTree = SOURCE_ROOT; };
+		CC43662A4AC9498EB6B91EA9 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D48EABA67F5945D48ECDC666 /* assignment1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = assignment1; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6037FBD4B49E5A5D33F22 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F02236D298BD4A6A848E1848 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = ../src/test.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06B6ECB8AA3C44E9A6C04C2A /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				75B59CF08ACC4ACAA2C67771 /* CMake Rules */,
+				DEA6037FBD4B49E5A5D33F22 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		1BE8D34C98A645D58485EA7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3C8A0B548AE549629124DF27 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		75B59CF08ACC4ACAA2C67771 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		82A5AF53186F46CC832ED1D0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5B0724D943AF9146005C /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/Image.cpp */,
+				F02236D298BD4A6A848E1848 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AD31435122EF43FEBD85D15F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7BA2D3DE51043A4B6D33426 /* ALL_BUILD */,
+				06B6ECB8AA3C44E9A6C04C2A /* ZERO_CHECK */,
+				DBC15ED8DF154A43BEE7B034 /* assignment1 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		AD3D97BD878B400C90F8C087 = {
+			isa = PBXGroup;
+			children = (
+				AD31435122EF43FEBD85D15F /* Sources */,
+				1BE8D34C98A645D58485EA7C /* Resources */,
+				F964815C635F46DEB2497F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF726B030D2243D79200F00B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2EF87A6E92E43E5B218137B /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/include/Image.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C7BA2D3DE51043A4B6D33426 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A0B548AE549629124DF27 /* CMake Rules */,
+				9B5B1ABC22D64A288B699A00 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DBC15ED8DF154A43BEE7B034 /* assignment1 */ = {
+			isa = PBXGroup;
+			children = (
+				AF726B030D2243D79200F00B /* Header Files */,
+				82A5AF53186F46CC832ED1D0 /* Source Files */,
+				CC43662A4AC9498EB6B91EA9 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/CMakeLists.txt */,
+			);
+			name = assignment1;
+			sourceTree = "<group>";
+		};
+		F964815C635F46DEB2497F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48EABA67F5945D48ECDC666 /* assignment1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40C0471F048341A28EAF9C3B /* assignment1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676A879501894CD081D8A406 /* Build configuration list for PBXNativeTarget "assignment1" */;
+			buildPhases = (
+				1EFF462A1DEF49ECAACE4746 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0C1CC97E46E439F8C96C931 /* PBXTargetDependency */,
+			);
+			name = assignment1;
+			productName = assignment1;
+			productReference = D48EABA67F5945D48ECDC666 /* assignment1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		543AC94875F24F2F8BB1CBE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 47211560162E4B649B757F34 /* Build configuration list for PBXProject "ICP3038-Assignment1" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4AFFE21365C6481B9C02F964 /* Debug */,
+				E1129E7BD46E4510A84A105D /* Release */,
+				EE50B015AA3E4C32A6F8D460 /* MinSizeRel */,
+				2A88B2AAC1E1411EAC2EEE48 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = AD3D97BD878B400C90F8C087;
+			projectDirPath = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake";
+			projectRoot = "";
+			targets = (
+				ADF64976A36B4CA786FD6673 /* ALL_BUILD */,
+				1ED8C25063CC48AA911014F1 /* ZERO_CHECK */,
+				40C0471F048341A28EAF9C3B /* assignment1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16B4A1F9573D402D84E0FF68 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5F6946350B3346C0B9EF1431 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jacko/Google\\ Drive/mac/uni/compVision/ICP3038-Assignment1/src -f /Users/jacko/Google\\ Drive/mac/uni/compVision/ICP3038-Assignment1/src/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		61F38F5CAFAB41BA9B905300 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jacko/Google\\ Drive/mac/uni/compVision/ICP3038-Assignment1/src -f /Users/jacko/Google\\ Drive/mac/uni/compVision/ICP3038-Assignment1/src/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F5CB8DA96E7C4143B6EE3C62 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFF462A1DEF49ECAACE4746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E581362ACE4A32BA4BBE32 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/Image.cpp */,
+				C7E3C3309C6F4CE7AFD74CC9 /* /Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083C6645C77B4A44B66A7C07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40C0471F048341A28EAF9C3B /* assignment1 */;
+			targetProxy = 96158C36F083406982E0FA7E /* PBXContainerItemProxy */;
+		};
+		9273FD46BF7941299A5A271D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED8C25063CC48AA911014F1 /* ZERO_CHECK */;
+			targetProxy = 503F10F3ABD04407961B6555 /* PBXContainerItemProxy */;
+		};
+		A0C1CC97E46E439F8C96C931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ED8C25063CC48AA911014F1 /* ZERO_CHECK */;
+			targetProxy = 2294DD51BEFD4760B99587CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA704B535354F2F9C0A455F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/build";
+			};
+			name = MinSizeRel;
+		};
+		0BE9932D03B94CA9AE243864 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/build";
+			};
+			name = RelWithDebInfo;
+		};
+		13D4A250DFAD4B7BAAC1D39A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = assignment1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		2C23E9A8F8034E4C93591F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		66EB01E995E442AE9F48E68A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = assignment1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		7301235966E24EF699F90FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/build";
+			};
+			name = Release;
+		};
+		81519097847E41E092279C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		8A13FA979ED5449E81566BC0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		92CA06EEDEA64C6CBA36AE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		ACFA3261823A42FF9D19E061 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = assignment1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		C40A1D09849E40CB8AE57B2F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		C64114861A8440C0AC3F0FBB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		DA88CA52C4C74EC79E831544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = assignment1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		DF829FCF782843B98B977F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		EA1EFEBCF1524D57ACCB710D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src/build";
+			};
+			name = Debug;
+		};
+		F8F607E76F4C457899BD07B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("\"/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/cmake/../include\"", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jacko/Google Drive/mac/uni/compVision/ICP3038-Assignment1/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD086B9ECF64844BFBDA445 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C23E9A8F8034E4C93591F01 /* Debug */,
+				92CA06EEDEA64C6CBA36AE5A /* Release */,
+				C64114861A8440C0AC3F0FBB /* MinSizeRel */,
+				C40A1D09849E40CB8AE57B2F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47211560162E4B649B757F34 /* Build configuration list for PBXProject "ICP3038-Assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1EFEBCF1524D57ACCB710D /* Debug */,
+				7301235966E24EF699F90FEE /* Release */,
+				0AA704B535354F2F9C0A455F /* MinSizeRel */,
+				0BE9932D03B94CA9AE243864 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		676A879501894CD081D8A406 /* Build configuration list for PBXNativeTarget "assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFA3261823A42FF9D19E061 /* Debug */,
+				DA88CA52C4C74EC79E831544 /* Release */,
+				13D4A250DFAD4B7BAAC1D39A /* MinSizeRel */,
+				66EB01E995E442AE9F48E68A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C196F645AC1A470A8250BE7B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF829FCF782843B98B977F46 /* Debug */,
+				81519097847E41E092279C07 /* Release */,
+				8A13FA979ED5449E81566BC0 /* MinSizeRel */,
+				F8F607E76F4C457899BD07B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 543AC94875F24F2F8BB1CBE1 /* Project object */;
+}
